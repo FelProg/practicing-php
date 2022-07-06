@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <title>Validación</title>
     <style>
+        :root {
+            --links: red;
+        }
+
         label{
-            display: inline-block;
-            width: 100px;
+            /* display: inline-block;        */
             margin: 5px 0;
         }
+
+        input{
+            width:90%;
+        }
         .container{
-            width: fit-content;
-            margin-left: 3rem;
+            width: 80%;
+            /* border: 1px solid #000; */
+            margin: 0 auto;
         }
         header{
             /* border: 1px solid #000; */
             width: fit-content;
             margin: 0 auto;
             color: #4c4d5f;
+            /* border: 1px solid #000; */
 
         }
         body{
@@ -42,15 +52,15 @@
     <form action="procesar_formulario.php" method="POST">
         <div class="container">
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre"  pattern="[A-Za-z ]+" ><br/>
+            <input type="text" name="nombre"  pattern="[A-Za-z ]+" >
             <label for="apellido">Apellido</label>
-            <input type="text" name="apellido"  pattern="[A-Za-z ]+"><br/>
+            <input type="text" name="apellido"  pattern="[A-Za-z ]+">
             <label for="edad">Edad</label>
-            <input type="number" name="edad"  pattern="[1-9]+"><br/>
+            <input type="number" name="edad"  pattern="[1-9]+">
             <label for="email">Email</label>
-            <input type="email" name="email" ><br/>
+            <input type="email" name="email" >
             <label for="pswd">Password</label>
-            <input type="password" name="pswd" ><br/>
+            <input type="password" name="pswd" >
             <input type="submit" value="Enviar">
             <button type="reset">Limpiar formulario</button>
         </div>
