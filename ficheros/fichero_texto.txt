@@ -2,3 +2,11 @@ Hola como estas
 Espero no del todo mal
 Aun no recibo la postal
 Que me dijiste el dia que te fuiste
+Soy una linea agregada al texto por php
+Soy una linea agregada al texto por php
+Soy una linea agregada al texto por php
+Soy una linea agregada al texto por php
+Soy una linea agregada al texto por php
+Soy una linea agregada al texto por php
+Soy una linea agregada al texto por php
+Soy una linea agregada al texto por php
